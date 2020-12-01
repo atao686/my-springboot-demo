@@ -16,6 +16,5 @@ public class HelloJob implements BaseJob {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         log.error("Hello Job 执行时间: {}", DateUtil.now());
-        System.out.println("Hello");
     }
 }
